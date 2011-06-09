@@ -1,0 +1,36 @@
+<table colspan="0" border="0">
+    <tr class="trackHeader">
+		<td colspan="4">Track List</td>
+	</tr>
+	{% for variant in product.variants %}
+	{% if variant.option1 == 'MP3' %}
+		<tr>
+			<td class="playButton">
+				{% if variant.option3 != "no" %}
+					<div class="graphic"><ul><li><a href="{{ variant.option3 }}"></a></li></ul></div>
+				{% endif %}
+				
+				<!--<div class="flasher">
+					<div class="ui360"><a href="{{ variant.option3 }}" class="sm2_link" alt="Listen to {{variant.option2}}" title="Listen to {{variant.option2}}">play</a></div>
+				</div>-->
+			</td>
+			<td class="trackName">
+				{{ variant.option2 }}
+			</td>
+			<td class="trackPrice">
+				{% if variant.available == true %}
+					{{ variant.price | money }}
+				{% endif %}
+			</td>
+			<td class="trackButton">
+				{% if variant.available == true %}
+				<form method="post" action="/cart/add">					
+					<input type="hidden" name="id" value="{{variant.id}}" /> 
+					<input type="submit" />
+				</form>
+				{% endif %}
+			</td>
+		</tr>
+	{%endif%}
+	{% endfor %}
+</table>

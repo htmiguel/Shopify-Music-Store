@@ -1,0 +1,20 @@
+<table>
+    {% for variant in product.variants %}
+		{% if variant.option1 != 'MP3' %}
+			<tr>
+				<td>{{ variant.option1 }}</td>
+				<td>{{ variant.price | money }}</td>
+				<td>
+					{% if variant.available == true %}
+						<form method="post" action="/cart/add">					
+							<input type="hidden" name="id" value="{{variant.id}}" /> 
+							<input type="submit" />
+						</form>
+					{% else %}
+						Sold Out
+					{% endif %}
+				</td>
+			</tr>
+		{% endif %}
+	{% endfor %}
+</table>
