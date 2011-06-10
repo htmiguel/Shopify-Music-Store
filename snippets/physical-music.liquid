@@ -8,7 +8,7 @@
 					{% if variant.available == true %}
 						<form method="post" action="/cart/add">					
 							<input type="hidden" name="id" value="{{variant.id}}" /> 
-							<input type="submit" />
+							<input type="add to cart" />
 						</form>
 					{% else %}
 						Sold Out

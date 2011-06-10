@@ -1,14 +1,13 @@
-{% include 'product' %}
 {% include 'physical-music' %}
 {% include 'digital-music' %}
 
-{{ '360player.css' | asset_url | stylesheet_tag }}
-{{ 'soundmanager2.js' | asset_url | script_tag }}
-{{ 'berniecode-animator.js' | asset_url | script_tag }}
-{{ '360player.js' | asset_url | script_tag }}
- 
+{{ 'inlineplayer.css' | asset_url | stylesheet_tag }}
+{{ 'flashblock.css' | asset_url | stylesheet_tag }}
+{{ 'soundmanager2.js' | asset_url | script_tag }}            
+{{ 'inlineplayer.js' | asset_url | script_tag }}
+
 <script type="text/javascript"> 
-    soundManager.url = '{{ '' | asset_url }}';
-	soundManager.debugMode = true;
+	soundManager.url = '{{ 'soundmanager2_debug.swf' | asset_url }}';
+	soundManager.debugMode = false;
 </script>
 

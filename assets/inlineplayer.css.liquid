@@ -107,8 +107,6 @@ ul.graphic li a.sm2_link {
  -webkit-border-radius:3px;
  border-radius:3px;
  padding:3px 3px 3px 25px;
- min-width:19em;
- _width:19em; /* IE 6 */
  text-decoration:none;
  font-weight:normal;
  color:#f6f9ff;
@@ -126,10 +124,10 @@ ul.graphic li a.sm2_link {
 ul.graphic li a, /* use a.sm2_link {} if you want play icons showing only if SM2 is supported */
 ul.graphic li a.sm2_paused:hover,
 ul.graphic li a.sm2_link:hover {
- background-image:url({{ 'icon_play.png' | asset_url }});
+ background-image:url(http://static.shopify.com/s/files/1/0083/0402/t/1/assets/icon_play.png?122);
  background-position:3px 50%;                          
  background-repeat:no-repeat;                          
- _background-image:url({{ 'icon_play.gif' | asset_url }}); /* IE 6 */
+ _background-image:url(http://static.shopify.com/s/files/1/0083/0402/t/1/assets/icon_play.gif?122); /* IE 6 */
 }
 
 ul.graphic li a.sm2_link:hover {
@@ -143,14 +141,14 @@ ul.graphic li a.sm2_paused {
 }
 
 ul.graphic li a.sm2_paused:hover {
- background:#003366 url({{ 'icon_play.png' | asset_url }}) no-repeat 3px 50%;
- _background-image:url({{ 'icon_play.gif' | asset_url }});
+ background: url(http://static.shopify.com/s/files/1/0083/0402/t/1/assets/icon_play.png?122) no-repeat 3px 50% #003366;
+ _background-image:url(http://static.shopify.com/s/files/1/0083/0402/t/1/assets/icon_play.gif?122);
 }
 
 ul.graphic li a.sm2_playing,
 ul.graphic li a.sm2_playing:hover {
- background:#003366 url({{ 'icon_pause.png' | asset_url }}) no-repeat 3px 50%;
- _background-image:url({{ 'icon_pause.gif' | asset_url }});
+ background:url(http://static.shopify.com/s/files/1/0083/0402/t/1/assets/icon_pause.png?122) no-repeat 3px 50% #003366;
+ _background-image:url(http://static.shopify.com/s/files/1/0083/0402/t/1/assets/icon_pause.gif?122);
  text-decoration:none;
 }
 
