@@ -3,7 +3,7 @@
     	<td colspan="4">Track List</td>
 	</tr>
 	{% for variant in product.variants %}
-	{% if variant.option1 == 'MP3' %}
+	{% if variant.option1 == 'MP3' or variant.option1 == 'WAV' %}
 		<tr>
 			<td class="playButton">
 				{% if variant.option3 != "no" %}

@@ -1,6 +1,6 @@
 <table>
     {% for variant in product.variants %}
-		{% if variant.option1 != 'MP3' %}
+		{% if variant.option1 != 'MP3' or variant.option1 != 'WAV' %}
 			<tr>
 				<td>{{ variant.option1 }}</td>
 				<td>{{ variant.price | money }}</td>
