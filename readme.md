@@ -17,9 +17,9 @@ There are two main types of variants that we use, and this is probably true for 
 <li>AUDIO - a url to your mp3 clip (IMPORTANT - whatever you link to can be grabbed right from the page, so don't link the whole song, link to a snippet)</li>
 </ol>
 <br><br>
-<p>It will look like once you get it set up:<br /><img src="http://content.screencast.com/users/htmiguel/folders/Jing/media/3f533b10-e58c-49a7-be1e-556cfc298c64/00000294.png" width="400" /></p>
+<p><strong>It will look like once you get it set up:</strong><br /><img src="http://content.screencast.com/users/htmiguel/folders/Jing/media/3f533b10-e58c-49a7-be1e-556cfc298c64/00000294.png" width="500" /></p>
 <br><br>
-<p>Then your product variants will look like this: <br /><img src="http://content.screencast.com/users/htmiguel/folders/Jing/media/5d1540fd-3903-4ee2-a82f-fa93d998cb27/00000291.png" width="400" /></p>
+<p><strong>Then your product variants will look like this:</strong> <br /><img src="http://content.screencast.com/users/htmiguel/folders/Jing/media/5d1540fd-3903-4ee2-a82f-fa93d998cb27/00000291.png" width="500" /></p>
 
 <h2>3. Templates</h2>
 
