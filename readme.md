@@ -1,8 +1,8 @@
-Use at your own risk. I am unable to assist in setting this up on your own store.
+<h1>NOTE!!: Use at your own risk. I am unable to assist in setting this up on your own store.</h1>
 
 
 
-<h1>Selling Music with Shopify</h1>
+<h2>Selling Music with Shopify</h2>
 
 <p>Here's a few things I learned modifying shopify to sell music at <a href="http://theghostlystore.com/collections/frontpage/products/com-truise-galactic-melt">The Ghostly Store</a></p>
 
