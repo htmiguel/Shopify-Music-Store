@@ -1,4 +1,4 @@
-<h1>NOTE!!: Use at your own risk. I am unable to assist in setting this up on your own store.</h1>
+<strong>NOTE!!: Use at your own risk. I am unable to assist in setting this up on your own store.</strong>
 
 
 
